@@ -1,0 +1,20 @@
+{
+	"name": "implementation-cc",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"pwrr": "node index.js",
+		"wrr": "node wrrIndex.js",
+		"rr": "node rrIndex.js",
+		"swrr": "node swrrIndex.js",
+		"populate": "node populateData.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"json2csv": "^6.0.0-alpha.2"
+	}
+}

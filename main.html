@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task Data Visualization</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				overflow-x: auto;
+			}
+			canvas {
+				max-width: 100%;
+			}
+			h1 {
+				margin: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <canvas id="lengthChart" width="400" height="150"></canvas> -->
+		<h1>Completion Time</h1>
+		<canvas id="completionTimeChart" width="400" height="150"></canvas>
+		<h1>Executing Time</h1>
+		<canvas id="executingTimeChart" width="400" height="150"></canvas>
+		<h1>Wait Time</h1>
+		<canvas id="waitTimeChart" width="400" height="150"></canvas>
+		<!-- <canvas id="taskPriorityChart" width="400" height="150"></canvas> -->
+		<!-- <canvas id="vmLoadAtExecutionChart" width="400" height="150"></canvas> -->
+		<!-- 
+    <canvas id="lengthChart2" width="400" height="150"></canvas>
+    <canvas id="completionTimeChart2" width="400" height="150"></canvas>
+    <canvas id="executingTimeChart2" width="400" height="150"></canvas>
+    <canvas id="waitTimeChart2" width="400" height="150"></canvas>
+    <canvas id="taskPriorityChart2" width="400" height="150"></canvas>
+    <canvas id="vmLoadAtExecutionChart2" width="400" height="150"></canvas> -->
+		<h1>Priority One Tasks</h1>
+		<canvas id="priorityOneTasks" width="400" height="150"></canvas>
+		<h1>Priority Three Tasks</h1>
+		<canvas id="priorityThreeTasks" width="400" height="150"></canvas>
+		<h1>Priority Five Tasks</h1>
+		<canvas id="priorityFiveTasks" width="400" height="150"></canvas>
+
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
